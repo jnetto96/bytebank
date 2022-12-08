@@ -1,5 +1,5 @@
 
-public class ControleBonificacao extends Funcionario {
+public class ControleBonificacao {
 
 	private double soma;
 	
@@ -11,5 +11,6 @@ public class ControleBonificacao extends Funcionario {
 	public double getSoma() {
 		return this.soma;
 	}
+
 }
 

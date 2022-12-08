@@ -1,13 +1,12 @@
-
-public class Funcionario {
+// Não pode instanciar pois é abstrata, conceitual.
+public abstract class Funcionario {
 	private String nome;
 	private String cpf;
 	private double salario;
 	
 	
-	public double getBonificacao() {
-		return this.salario * 0.05;
-	}
+	//método sem corpo e abstrato. É necessário fazer o override em todas classes que o usam.
+	public abstract double getBonificacao();
 	
 	public String getNome() {
 		return nome;
